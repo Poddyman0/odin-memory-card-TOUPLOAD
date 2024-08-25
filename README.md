@@ -47,6 +47,43 @@ For this project, I built a Memory game using React. The game involves matching 
 
 <ul>
   <li><strong>Set Up React Project:</strong> Created a new React project using Create React App.</li>
+
+  To run this React app in your web browser, follow these steps:
+
+Ensure you have Node.js and npm installed: You can check this by running the following commands in your terminal:
+
+bash
+Copy code
+node -v
+npm -v
+If you don’t have them installed, download and install Node.js from https://nodejs.org/, which includes npm.
+
+Navigate to your project directory: Open your terminal or command prompt and navigate to the root of your project:
+
+bash
+Copy code
+cd odin-memory-card-TOUPLOAD
+Install dependencies: Run the following command to install all the necessary dependencies specified in your package.json:
+
+bash
+Copy code
+npm install
+Start the development server: Run the following command to start your development server using Vite:
+
+bash
+Copy code
+npm run dev
+Open the app in your browser: After running the npm run dev command, you should see output in your terminal that looks like this:
+
+arduino
+Copy code
+VITE vX.X.X  ready in Xs
+
+➜  Local:   http://localhost:5173/
+➜  Network: use --host to expose
+Open your browser and navigate to the URL shown under Local, usually http://localhost:5173.
+
+Your React app should now be running in your browser! Any changes you make to your code should automatically be reflected in the browser thanks to hot-reloading.
   <li><strong>Design Application Structure:</strong> Planned the components and folder structure. Decided on components for the game logic (App), individual cards (Card), and the scoreboard (Scoreboard).</li>
   <li><strong>Fetch Data from API:</strong> Implemented an API service to fetch card images and text. Chose an API based on the desired theme (e.g., Giphy or Pokémon).</li>
   <li><strong>Implement Game Features:</strong> Created the card matching logic and integrated it with React hooks for managing state. Added functions to shuffle and display cards randomly.</li>
